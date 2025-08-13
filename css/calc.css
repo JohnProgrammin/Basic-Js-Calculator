@@ -1,1 +1,132 @@
 
+/* *{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(114, 190, 0);
+}
+.calendar{
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+  background-color: white;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  line-height: 20px;
+  overflow: hidden;
+}
+.monthname{
+  background-color: green;
+  height: 25%;
+  color: white;
+  font-size: 25px;
+  /* font-weight: 300; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: month 1s infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+@keyframes month {
+   0%{
+    background-color: green;
+   }
+   100%{
+    background-color: greenyellow;
+   }
+}
+.dayname{
+  color: rgba(0, 0, 0, 0.788);
+  font-size: 25px;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.daynumber{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  height: 30%;
+}
+.year{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  color: rgba(0, 0, 0, 0.767);
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: green;
+}
+.container{
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  margin: 50px 0px 0px 0px;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  outline: 2px solid rgb(255, 255, 255);
+}
+
+input{
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border: transparent;
+  border-bottom: 2px solid green;
+  color: black;
+  outline: none;
+}
+
+button{
+  width: auto;
+  height: 50px;
+  margin: 5px 5px 5px 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: greenyellow;
+  transition: all ease 0.35s;
+}
+button:hover{
+  background-color: rgb(136, 214, 20);
+  cursor: pointer;
+}
+#keys{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.specialbtn{
+background-color: green;
+color: white;
+}
+.specialbtn:last-of-type{
+  background-color: red;
+}
+.specialbtn:last-of-type:hover{
+  background-color: rgb(255, 44, 44);
+}
